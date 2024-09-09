@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+}
+
+.hero-section img {
+    margin-top: 20px;
+}
+
+/* Services Section */
+.services-section .card {
+    border: none;
+}
+
+.services-section .card-img-top {
+    height: 200px;
+    object-fit: contain; /* Ensure full visibility of the image without cropping */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Doctors Section */
+.doctors-section .card-img-top {
+    height: auto; /* Allow image height to adapt for portrait images */
+    width: 100%; /* Ensure images are responsive */
+    max-width: 300px; /* Set a max-width to accommodate portrait images */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Easy Steps Section */
+.steps-section .card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Testimonials Section */
+.testimonials-section .card {
+    max-width: 400px; /* Narrower card to fit landscape images */
+    margin: 0 auto; /* Center the card */
+}
+
+.testimonials-section .card-img-top {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%; /* Make the images rounded */
+}
+
+/* Registration Section */
+.registration-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.registration-section input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Make inputs full width */
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #f8f9fa;
+    padding-top: 30px;
+}
+
+.footer-section h5 {
+    font-weight: bold;
+}
+
+.footer-section ul {
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+/* Sticky Navbar */
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Ensures the navbar stays on top */
+    transition: top 0.3s; /* Smooth hide/show transition */
+}
+
+.hidden-navbar {
+    top: -80px; /* Adjust this based on the navbar's height */
+}

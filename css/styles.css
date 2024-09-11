@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #333;
 }
 
@@ -14,6 +14,10 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {

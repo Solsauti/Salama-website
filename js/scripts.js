@@ -8,6 +8,26 @@ document.querySelector('form').addEventListener('submit', function(e) {
         alert('Please enter a valid email.');
     }
 });
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const videoButton = document.getElementById('playVideoButton');
+        const videoContainer = document.getElementById('videoContainer');
+        const videoSource = document.getElementById('videoSource');
+        const medicalVideos = [
+            'https://www.example.com/video1.mp4',
+            'https://www.example.com/video2.mp4',
+            'https://www.example.com/video3.mp4'
+        ];
+
+        videoButton.addEventListener('click', () => {
+            // Choose a random video URL
+            const randomVideo = medicalVideos[Math.floor(Math.random() * medicalVideos.length)];
+            videoSource.src = randomVideo;
+            videoContainer.style.display = 'block';
+            document.getElementById('medicalVideo').play();
+        });
+    });
+</script>
 
 document.addEventListener('DOMContentLoaded', function() {
     let statsTriggered = false;

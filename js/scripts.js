@@ -8,7 +8,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
         alert('Please enter a valid email.');
     }
 });
-<script>
+
     document.addEventListener('DOMContentLoaded', (event) => {
         const videoButton = document.getElementById('playVideoButton');
         const videoContainer = document.getElementById('videoContainer');
@@ -25,7 +25,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
             document.getElementById('medicalVideo').play();
         });
     });
-</script>
+
 
 document.addEventListener('DOMContentLoaded', function() {
     let statsTriggered = false;

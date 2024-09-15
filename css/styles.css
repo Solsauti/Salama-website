@@ -35,11 +35,13 @@ img {
 }
 
 /* Stats section*/
+.statistics-section py-5 bg-dark text-center text-light {
 .container {
     /*border:1px solid black;*/
     width: 100vw;
     display: flex;
-    align-items:center;
+    align-items:center;}
+}
 
 /* Services Section */
 .services-section .card {

@@ -34,6 +34,13 @@ img {
     margin-top: 20px;
 }
 
+/* Stats section*/
+.container {
+    /*border:1px solid black;*/
+    width: 100vw;
+    display: flex;
+    align-items:center;
+
 /* Services Section */
 .services-section .card {
     border: none;
